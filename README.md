@@ -1,37 +1,45 @@
-# Clockifi Bulk Add
-- add multiple work record to clockifi by csv
-- more detail about clockifi https://clockify.me/
+# Clockify Bulk Insert
+This script helps you to automate insertion of bulk entries in Clockify (https://clockify.me/)
 
-## Feature
-- only work with google login
-- pre formated clockifi template need to update with original data (clocki.csv)
+## Prerequisites
+```
+- Python ^3.6.*
+- Chrome / Mozilla Browser
+```
 
-## Pre Requirement's
-- python 3.*
-
-## How to install
-- setup virtualenvirement
+## Installation
+### Clone Repository
+```bash
+$ git clone git@github.com:jigneshkotadiya/clockifi_bulk_add.git
+OR
+$ git clone https://github.com/jigneshkotadiya/clockifi_bulk_add.git
+```
+### Setup Virtual Environment
 ```bash
 $ python -m venv ./venv
 $ . venv/bin/activate
-$ pip install -r requirement.txt
+$ pip install --editable .
 ```
-- run script 
+### Run Script
 ```bash
-$ python clockifi_update.py -u 'username@gmail.com' -p 'password' -f 'clocki.csv'
+$ clockify
 ```
 
-## Importent Point
-- maximize your google chrome screen which is open by script for proper oupt put
+## Heads Up !!
+```
+This script will open up a chrome browser and make sure that screen is in fullscreen mode.
+```
 
-## Contribute
-- feel free to contribue
+## Contributions
+```
+Contributions are most welcome.
+```
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2020-2020 
+Copyright (c) 2020-2020
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
